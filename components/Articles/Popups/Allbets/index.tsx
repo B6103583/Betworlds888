@@ -13,7 +13,7 @@ function Allbets() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -38,14 +38,14 @@ function Allbets() {
             {/* Red-Yellow */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">เกมส์เสื้อแดง-ลาย-เสื้อเหลือง</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เกมส์เสื้อแดง-ลาย-เสื้อเหลือง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>สำหรับเกมส์ยอดนิยมที่มีจำนวนผู้เล่นมากที่สุดของ Betworlds888 นั้นคือเกมส์ เสื้อแดง-เสื้อเหลือง, กำถั่ว, ไฮโล และ ป๊อกเด้ง ซึ่งเป็นเกมส์ที่เล่นง่ายและผู้เล่นมักคุ้นเคยกันดี</h1>
               </div>
 
-              <div className='flex gap-5 justify-between'>
-                <div className='w-2/5 '>
+              <div className='flex flex-col md:flex-row gap-5 justify-between'>
+                <div className='md:w-2/5 '>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px] indent-8'>การออกผลรางวัลเกมส์นี้ อัตราส่วนในการออก เสื้อสองสี มีโอกาสออกเยอะมากสุด เหมือนการโยนเหรียญ 2 เหรียญ ที่ออกหัวและก้อยพร้อมกัน การที่มีโอกาสในการออกผลเยอะที่สุด</h1>
                   </div>
@@ -61,14 +61,14 @@ function Allbets() {
             {/* Bean */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">เกมส์กำถั่ว</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">เกมส์กำถั่ว</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เกมส์กำถั่วใน Betworlds888 นั้นเป็นอีกเกมส์ที่ได้รับความนิยม โดยให้ทายผลที่ออกมาว่าจะออกเลขไหนระหว่าง 4 เลข คือ 1 2 3 และ 4 ซึ่งเกมส์กำถั่วนี้จะทายผลมากสุด 3 ตัวใน 1 ตา การเล่นกำถั่วขั้นต่ำเพียง 20 บาท</h1>
               </div>
 
-              <div className='flex gap-5 justify-between'>
-                <div className='w-2/5 '>
+              <div className='flex flex-col md:flexrow gap-5 justify-between'>
+                <div className='md:w-2/5 '>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px]'>โดยเกมส์กำถั่วมีอัตราการจ่ายดังนี้<br/>
                     - ทายผลออก 1-2 ตัว อัตราการจ่ายอยู่ที่ 0.95<br/>
@@ -82,7 +82,7 @@ function Allbets() {
             {/* Many */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">น้ำเต้าปูปลา</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">น้ำเต้าปูปลา</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ถือเป็นเกมส์ที่อยู่คู่คนไทยมาอย่างยาวนาน เป็นการทายว่าผลรางวัลที่จะออกมามีตัวอะไร น้ำเต้าปุปลา ในการเปิดให้เดิมพันในเว็บ Betworlds888 ที่นี้จะมีให้ทายทั้งหมด 6 ตัว แต่ละตัวก็จะมี ปู ปลา น้ำเต้า เสือ ไก่ และกุ้ง</h1>
@@ -90,8 +90,8 @@ function Allbets() {
                 <h1 className='text-white text-[16px] indent-8'>ในการเลือกทายผลแต่ละครั้งท่านสามารถเลือกได้ตั้งแต่ 1 - 2 ตัวเลยทีเดียว บางครั้งออกผลมาไม่ซ้ำเลยก็อาจเป็นไปได้ ขึ้นอยู่ระบบการออกผลด้วยคอมพิวเตอร์ เรามาดูอัตราการถูกรางวัลว่ามีอะไรบ้าง</h1>
               </div>
 
-              <div className='flex gap-5 justify-between'>
-                <div className='w-3/5 '>
+              <div className='flex flex-col md:flex-row gap-5 justify-between'>
+                <div className='md:w-3/5 '>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px]'>- ถ้าหากท่านเลือกมา 1 ตัว และรางวัลที่ออกมา 3 ตัวมี 1 ตัวที่ท่านเลือกท่านก็จะได้รางวัลอยู่ที่ @ 1.00<br/>
                     - ถ้าหากท่านเลือกมา 1 ตัว รางวัลที่ออก 2 ตัวที่ท่านได้เลือกไว้ ท่านก็จะได้อัตราการถูกรางวัลอีกเท่านึงเป็น @ 2.00<br/>
@@ -106,15 +106,15 @@ function Allbets() {
             {/* Hi-Lo */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">เกมส์ไฮโล</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">เกมส์ไฮโล</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เกมส์ไฮโลใน Betworlds888 จะใช้ลูกเต๋าไฮโล 3 ลูกในการออกผลมาซึ่งผู้เล่นสามารถเล่นทายผลลูกเต๋าที่ออกมาได้ถึง 3 ลูกว่าจะออกมาเลขอะไรบ้างหรือผู้เล่นจะทายผลออกมาแค่ลูกเดียวก็ได้ แต่อัตราการจ่ายก็ต่างออกไปซึ่งการออกผลเกมส์ไฮโลและอัตราการจ่ายดังนี้</h1>
               </div>
               <div className='mx-auto'><Image src={hilo} alt="LogoImage"/></div>
 
-              <div className='flex gap-5 justify-between'>
-                <div className='w-1/2'>
+              <div className='flex flex-col md:flex-row gap-5 justify-between'>
+                <div className='md:w-1/2'>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px]'>- ทายเลขไฮโล 1 ลูกและผลลูกเต๋าออกมาเลขที่เราทายเหมือนกันหมด มีอัตราการจ่ายที่ 3.0<br/>
                     - ทายเลขไฮโล 1 ลูกและผลลูกเต๋าออกมาเลขที่เราทาย 2 ลูก มีอัตราการจ่ายที่ 2.0<br/>
@@ -127,7 +127,7 @@ function Allbets() {
                     - ทายไฮโลแต้มสูงและทายเลข 1 ด้วย มีอัตราการจ่ายที่ 6.0</h1>
                   </div>
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2'>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px]'>- ทายไฮโลแต้มต่ำ คือผลลูกเต๋าทั้ง 3 ลูก บวกรวมกัน ต่ำกว่า 11 แต้ม มีอัตราการจ่ายที่ 1.0<br/>
                     - ทายไฮโลแต้มต่ำและทายเลข 1 หรือ 2 ด้วย มีอัตราการจ่ายที่ 2.0<br/>
@@ -146,14 +146,14 @@ function Allbets() {
             {/* Pok-rt */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">เกมส์ป๊อกเด้ง</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">เกมส์ป๊อกเด้ง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เกมส์ป๊อกเด้ง เป็นอีกหนึ่งเกมส์ยอดนิยมของคนไทยที่ ทำเงินได้อย่างรวดเร็ว โดยวิธีเล่นรอบแลกจะแจกไพ่ให้มือละ 2 ใบ และสูงสุดที่ 3 ใบ (กรณีไพ่ในมือแต้มน้อย) ซึ่งเกมส์ป๊อกเด้งใน Betworlds888 นั้นจะกำหนดให้มีทั้งหมด 6 มือ โดยให้เราเลือกมือที่ 1-6 โดยจะวัดกับไพ่เจ้ามือ</h1>
               </div>
 
-              <div className='flex gap-5 justify-between'>
-                <div className='w-3/5 '>
+              <div className='flex flex-col md:flex-row gap-5 justify-between'>
+                <div className='md:w-3/5 '>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px] indent-8'>เริ่มแรกหากไพ่ในมือ 2 ใบบวกกันได้ 8 หรือ 9 แต้ม ที่เขาเรียกว่า “ป๊อก” หรือหากไพ่มีดอกเดียวกันและแต้มรวมกันเท่ากับ 8 หรือ 9 ที่เขาเรียกว่า “ป๊อกเด้ง” คือถือว่าเป็นแต้มที่สูงในการเปิด 2 ใบแรกจะเปิดไพ่ก่อนใครและเป็นผู้ชนะ โดยจะคิดไพ่ในมือ 2 ใบ (กรณีนี้ วัดไพ่กับเจ้ามือ) หากไพ่ป๊อกเด้ง ใน เปิดไพ่ 3 ใบ และมืออื่นไม่ไ้ด้ป๊อก ถือไพ่ 2 ใบ เกมส์จะคิดไพ่สูงสุดและอัตราการจ่ายเรียงดังนี้</h1>
                   </div>
@@ -173,14 +173,14 @@ function Allbets() {
             {/* tiger-dragon */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">เกมส์เสือ-มังกร</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">เกมส์เสือ-มังกร</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'> เป็นอีกเกมส์นึงที่เล่นง่าย และเป็นเกมส์ที่ติดยอดฮิต อีกเกมส์นึง หลักการง่ายๆ คือให้เราเลือกระหว่าง ดราก้อน ไทเกอร์ ( Dragon Tiger ) หรือ เลือกว่าเสมอ ( TIE )</h1>
               </div>
 
-              <div className='flex gap-5 justify-between'>
-                <div className='w-3/5 '>
+              <div className='flex flex-col md:flex-row gap-5 justify-between'>
+                <div className='md:w-3/5 '>
                   <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                     <h1 className='text-white text-[16px] indent-8'>อัตราการจ่ายของ ดราก้อน ไทเกอร์<br/>
                     - หากเลือก ดราก้อน ไทเกอร์ และถูก ท่านจะได้อัตราอยู่ที่ @ 1.00 หากแต้มเท่ากันเราจะวัดผลที่ดอกไพ่<br/>
@@ -197,7 +197,7 @@ function Allbets() {
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">แทงบอล คือ</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">แทงบอล คือ</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ทั้งหมดนี้ คุณลูกค้าจะได้รับความเพลิดเพลินบันเทิงสนุกสนานครบวงจร จบในเว็บเดียว และคุณจะได้รับบริการอย่างเป็นมืออาชีพตลอด 24 ชั่วโมง เพราะเราคือเว็บการพนันออนไลน์ดีที่สุด 2022</h1>

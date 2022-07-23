@@ -9,7 +9,7 @@ function History() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -34,11 +34,11 @@ function History() {
                 สามารถรู้ถึงเส้นทางการเงินทั้งหมดในบัญชีของท่าน สามารถเข้าดูรายการได้ด้วยไม่กี่ขั้นตอน สะดวก รวดเร็ว ครบจบในเว็บเดียวต้อง Betworlds888</h1>
             </div>
 
-            {/* Section 1 */}
+            {/* ตรวจประวัติการเดิมพัน */}
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">ตรวจประวัติการเดิมพัน</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ตรวจประวัติการเดิมพัน</div>
               </div>
               <Image src={ex} alt="LogoImage" />
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
@@ -50,11 +50,11 @@ function History() {
               </div>
             </div>
 
-            {/* Section 2 */}
+            {/* ตรวจการเดิมพันค้าง/บิล */}
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">ตรวจการเดิมพันค้าง/บิล</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ตรวจการเดิมพันค้าง/บิล</div>
               </div>
               <Image src={ex2} alt="LogoImage" />
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
@@ -64,11 +64,11 @@ function History() {
               </div>
             </div>
 
-            {/* Section 3 */}
+            {/* สรุป */}
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">สรุป วิธีดูรายการย้อนหลัง Betworlds888</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">สรุป วิธีดูรายการย้อนหลัง Betworlds888</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'> ขั้นตอนง่ายๆ สามารถดูด้วยตัวเองได้ ขั้นตอนไม่ยุ่งยาก เข้าใจง่าย ชัดเจน ใช้เวลาไม่ถึง 1 นาที 

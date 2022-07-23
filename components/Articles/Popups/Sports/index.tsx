@@ -21,12 +21,12 @@ function Sports() {
   const [visible, setVisible] = useState(false);
   const Card = ({ title, desc, img }: CardProps) => {
     return (
-      <div className='flex-col '>
-        <div className='text-white text-3xl font-semibold p-5'>{title}</div>
+      <div className='flex-col'>
+        <div className='text-white text-center sm:text-left text-2xl md:text-3xl font-semibold p-5'>{title}</div>
 
-        <div className='flex justify-between'>
+        <div className='flex flex-col md:flex-row gap-5 justify-between'>
           <Image src={img} alt="LogoImage" />
-          <div className='w-3/5 '>
+          <div className='md:w-3/5 '>
             <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
               <h1 className='text-white text-[16px] '>{desc}</h1>
             </div>
@@ -38,7 +38,7 @@ function Sports() {
 }
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -70,7 +70,7 @@ function Sports() {
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">พนันกีฬาที่ได้รับความนิยม</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">พนันกีฬาที่ได้รับความนิยม</div>
               </div>
               
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
@@ -109,9 +109,9 @@ function Sports() {
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">สรุปการเดิมพันกีฬาดีอย่างไร</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">สรุปการเดิมพันกีฬาดีอย่างไร</div>
               </div>
-              <div className="bg-transparent px-5 py-3 gap-5 rounded-xl">
+              <div className="bg-transparent sm:px-5 py-3 gap-5 rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>หวังเป็นอย่างยิ่งว่านักพนันทุกท่านจะสามารถหาเกมกีฬาเดิมพันที่ชื่นชอบและเข้ากับตัวเองได้มากที่สุด เพื่อที่คุณจะได้รู้สึกสนุกไปกับมันและสามารถที่จะทำกำไรจากมันได้แน่นอนว่าการเดิมพันกีฬานั้นหากศึกษาให้ดีจะพบว่าสามารถเล่นได้ง่ายกว่าการพนันชนิดอื่นพอสมควรแถมยังป้องกันการโกงได้อีกด้วย เนื่องจากผลสกอร์แต่ละชนิดกีฬานั้นสามารถตรวจสอบได้ตลอดเวลาทั่วโลก</h1>
               </div>
             </div>

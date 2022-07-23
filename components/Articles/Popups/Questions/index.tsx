@@ -7,7 +7,7 @@ function Tips() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -28,7 +28,7 @@ function Tips() {
               <Image src={img} alt="LogoImage" />
             </div>
             <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
-                <h1 className='text-white text-[16px] indent-8'>แน่นอนว่าเมื่อคุณเข้ามายังเว็บไซต์นี่ หลายคนอาจจะเคยเห็นแบรนด์ Betworlds888 มาแล้วจากที่ใดที่หนึ่ง 
+                <h1 className='text-white text-[16px] indent-8 '>แน่นอนว่าเมื่อคุณเข้ามายังเว็บไซต์นี่ หลายคนอาจจะเคยเห็นแบรนด์ Betworlds888 มาแล้วจากที่ใดที่หนึ่ง 
                 ถึงอย่างไรก็ยังมีคำถามที่ยังอยากรู้ ทั้งเกี่ยวกับความปลอดภัยในตัวเว็บไซต์ วิธีการเล่นไม่ว่าจะเป็นการพนันออนไลน์ คาสิโน รวมถึงเรื่องเครดิตต่างๆ จ่ายเงิน หรือ 
                 ถอนเงินอย่างไร วิธีไหนบ้าง ในหน้านี้เราได้รวบรวมให้คุณได้เรียนรู้ก่อนจะใช้งานจริง</h1>
             </div>
@@ -37,7 +37,7 @@ function Tips() {
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">Betworlds888 จ่ายจริง จ่ายชัวร์ มีความน่าเชื่อถือ</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">Betworlds888 จ่ายจริง จ่ายชัวร์ มีความน่าเชื่อถือ</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เป็นคำถามที่หลายคนนั้นอยากจะรู้ และทราบเป็นลำดับต้นๆว่าเว็บที่ท่านกำลังจะเติมเงินเข้าไปเล่นพนันออนไลน์
@@ -53,7 +53,7 @@ function Tips() {
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">Betworlds888 เกมส์ไหนได้รับความนิยมที่สุด</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">Betworlds888 เกมส์ไหนได้รับความนิยมที่สุด</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>สำหรับคนไหนอยากเล่นคาสิโนออนไลน์ ที่สามารถเล่นได้ง่ายสนุกตื่นเต้นเร้าใจ และได้รับความนิยมที่สุด 
@@ -70,10 +70,10 @@ function Tips() {
 
             <div className="flex flex-col items-end gap-5 ">
               <div className="flex bg-gradient-to-l w-56 justify-center from-[#B37834] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl py-3 ">มั่นใจเว็บเราได้</div>
+                <div className=" font-bold text-2xl sm:text-3xl py-3 ">มั่นใจเว็บเราได้</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 rounded-xl">
-                <h1 className='text-white text-[16px] text-center px-5'>เหตุผลแรกที่เรามีความมั่นใจเต็มเปี่ยมคือเว็บไซต์ของเรามีความน่าเชื่อถือ ด้วยการมีทีมงานคุณภาพอีกทั้ง
+                <h1 className='text-white text-[16px] text-center md:px-5'>เหตุผลแรกที่เรามีความมั่นใจเต็มเปี่ยมคือเว็บไซต์ของเรามีความน่าเชื่อถือ ด้วยการมีทีมงานคุณภาพอีกทั้ง
                 ยังได้รับคำชมเชยจากลูกค้าตลอด 20 ปีเกี่ยวกับความปลอดภัยในความยุติธรรม ทั้งเรื่องของการฝากเงิน หรือถอนเงิน ขั้นตอนไม่มีความยุ่งยากหรือซับซ้อนแต่อย่างใด
                 แน่นอนว่านอกจากระยะเวลาที่เป็นตัวบ่งบอกถึงความน่าเชื่อถือ เราก็ไม่หยุดพัฒนา และพร้อมจะแก้ไขปัญหาแม้ว่าจะเป็นเรื่องเล็กๆก็ตาม 
                 อย่างที่ทำให้เราเป็นเว็บไซต์ที่มีชื่อติดหูอย่างเช่นทุกวันนี้คือการติดต่อสอบถาม เพราะเราคำนึงถึงเรื่องของความเร็วในการประสานงานของลูกค้า 1 วินาที
@@ -84,7 +84,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-[350px] py-3 text-center">มือใหม่หัดเล่น ยากไหม</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-[350px] py-3 text-center">มือใหม่หัดเล่น ยากไหม</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5  rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>จริงอยู่ที่การพนันออนไลน์นั้นเกิดมาได้หลายปีแล้ว แต่สำหรับมือใหม่หัดเล่น ต้องบอกว่าเราก็มีข้อแนะนำ

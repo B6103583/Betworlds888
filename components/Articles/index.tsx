@@ -18,7 +18,7 @@ function Articles() {
     <div className="w-3/4 mx-auto bg-transparent min-h-full">
         <div className='flex flex-col'>
             <div className='flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C]'>
-                <div className="mx-auto font-bold text-3xl py-3">บทความ</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">บทความ</div>
             </div>
             
             <div className='grid grid-cols-2 gap-5 bg-black bg-opacity-50 p-10 justify-center '>

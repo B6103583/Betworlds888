@@ -14,8 +14,8 @@ function Ball12() {
   const [visible, setVisible] = useState(false);
   const Card = ({ title, desc }: CardProps) => {
     return (
-      <div className='flex-col '>
-        <div className='text-white text-3xl font-semibold p-5'>{title}</div>
+      <div className='flex-col p-1'>
+        <div className='text-white text-2xl sm:text-3xl font-semibold p-5'>{title}</div>
 
        <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
           <h1 className='text-white text-[16px] indent-8'>{desc}</h1>
@@ -26,7 +26,7 @@ function Ball12() {
 }
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -60,7 +60,7 @@ function Ball12() {
 
             <div className="flex flex-col w-full gap-8">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">กติกาการเล่นบอลเต็ง</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">กติกาการเล่นบอลเต็ง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>การพนันบอลเต็งนั้นในปัจจุบันจะยึดตามผลสกอร์ที่จบลงในเวลา 90 นาที โดยรวมช่วงทดเวลาบาดเจ็บเข้า
@@ -75,7 +75,7 @@ function Ball12() {
 
               <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">หมายเหตุ</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">หมายเหตุ</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>หากเกมการแข่งขันถูกเลื่อนไปเป็นวันอื่นให้ถือว่าเป็นโมฆะ เช่นเดียวกับแมตช์การแข่งขันที่ถูกยกเลิก โดยยังเตะไม่ครบ 90 นาที ให้ถือว่าผลการแข่งขันเป็นโมฆะเหมือนกัน</h1>
@@ -87,7 +87,7 @@ function Ball12() {
             {/* เทคนิคการทำกำไรจากบอลเต็ง 1 */}
             <div className="flex flex-col w-full gap-8">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">เทคนิคการทำกำไรจากบอลเต็ง</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เทคนิคการทำกำไรจากบอลเต็ง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>หากคุณเป็นนักพนันหน้าใหม่และกำลังต้องการคำแนะนำในการแทงบอลเต็งยังไงให้ได้กำไร วันนี้ทางเว็บไซต์
@@ -124,7 +124,7 @@ function Ball12() {
             {/* เทคนิคการทำกำไรจากบอลเต็ง 2 */}
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">เทคนิคการทำกำไรจากบอลเต็ง</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เทคนิคการทำกำไรจากบอลเต็ง</div>
               </div>
               <Image src={rate} alt="LogoImage" />
             </div>

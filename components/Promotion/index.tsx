@@ -9,7 +9,7 @@ function Promotion() {
     <div className="w-3/4 mx-auto bg-transparent min-h-full">
         <div className='flex flex-col bg-black bg-opacity-50 '>
             <div className='flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C]'>
-                <div className="mx-auto font-bold text-3xl py-3 text-transparent">Promotion</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center text-transparent">Promotion</div>
             </div>
             <div className='flex flex-col md:flex-row bg-black bg-opacity-50 p-10 gap-8 '>
 

@@ -12,7 +12,7 @@ function Lang() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -37,11 +37,11 @@ function Lang() {
                 และอันดับหนึ่งของไทย เรามีปุ่มเปลี่ยนภาษาไว้รองรับถึง 5 ภาษาได้แก่ ภาษาไทย ภาษาอังกฤษ ภาษาจีน ภาษาเวียดนาม และภาษาลาว ลูกค้าสามารถเปลี่ยนภาษาได้ตามต้องการในคลิกเดียว</h1>
             </div>
 
-            {/* Section 1 */}
+            {/* ขั้นตอนการเปลี่ยนภาษา */}
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">ขั้นตอนการเปลี่ยนภาษา มีดังต่อไปนี้</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ขั้นตอนการเปลี่ยนภาษา มีดังต่อไปนี้</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ลูกค้าเว็บไซต์ Betworlds888 สามารถเข้าใจขั้นตอนในการเปลี่ยนภาษาได้ง่ายภายใน 2 ขั้นตอนเท่านั้น การเปลี่ยนภาษา 
@@ -59,11 +59,11 @@ function Lang() {
 
             </div>
 
-            {/* Section 2 */}
+            {/* ระบบเปลี่ยนภาษาดีที่สุด */}
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3 text-center">ระบบเปลี่ยนภาษาดีที่สุดต้อง Betworlds888 เท่านั้น</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ระบบเปลี่ยนภาษาดีที่สุดต้อง Betworlds888 เท่านั้น</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>การทำรายการในเว็บเดิมพันออนไลน์ เรื่องของภาษาในรายละเอียดข้อมูลที่แสดงผลมีความสำคัญต่อการใช้งานอย่างมาก 

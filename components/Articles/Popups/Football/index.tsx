@@ -7,7 +7,7 @@ function Football() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -43,7 +43,7 @@ function Football() {
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">เว็บไซต์ แทงบอลออนไลน์ Betworlds888</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เว็บไซต์ แทงบอลออนไลน์ Betworlds888</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เพิ่มความสบายรวดเร็วทันใจสำหรับในการติดต่อ ทั้งยังขอคำแนะนำทั้งหมดทุกอย่าง หรือจะเป็นการ ฝาก ถอน
@@ -56,7 +56,7 @@ function Football() {
             {/* Section 2 */}
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">เว็บแทงบอล Betworlds888 เป็นเว็บพนันดี</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เว็บแทงบอล Betworlds888 เป็นเว็บพนันดี</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>1. Betworlds888 เร็ว ท่านสามารถฝาก ถอน ได้สบาย รวดเร็วทันใจ เพียงแค่ 5-10 วินาทีเพียงแค่นั้นกับทางแชท Live ได้ทางหน้าเว็บไซต์ ตลอด 1 วัน แล้วก็สุดคุ้มด้วยการไม่คิดค่าธรรมเนียมต่างๆสำหรับการฝาก ถอน</h1>
@@ -72,7 +72,7 @@ function Football() {
             {/* Section 3 */}
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">เว็บชัวร์จริง</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">เว็บชัวร์จริง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5  rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ให้คุณมั่นอกมั่นใจได้เลยว่าพวกเรามีเงินทุนมากมายที่หมุนเวียนต่อวัน ทำให้การถอนเงินของท่านไม่มีสะดุด ไม่ว่าจะถอนเท่าไรก็ตาม</h1>
@@ -81,7 +81,7 @@ function Football() {
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">สรุป เว็บพนันดีที่สุด Betworlds888</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">สรุป เว็บพนันดีที่สุด Betworlds888</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ทาง Betworlds888 เรามีทีมงานคุณภาพ และมีออฟฟิต ที่อยู่ : เพื่อตอบสนองความต้องการของนักเสี่ยงโชคทุกท่าน “แทงบอลออนไลน์” และเรามีบริการ Call Center ตลอด 24 ชั่วโมง</h1>

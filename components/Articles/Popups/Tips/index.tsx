@@ -8,7 +8,7 @@ function Tips() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -40,7 +40,7 @@ function Tips() {
 
             <div className="flex flex-col w-full gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">แทงบอล คือ</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">แทงบอล คือ</div>
               </div>
               <Image src={tips} alt="LogoImage" />
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
@@ -56,7 +56,7 @@ function Tips() {
 
             <div className="flex flex-col w-full gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">แทงบอลออนไลน์เลือกแทงอะไรได้บ้าง</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl p-3 text-center ">แทงบอลออนไลน์เลือกแทงอะไรได้บ้าง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>การแทงบอลออนไลน์ในเว็บนั้นมีให้เลือกมากมายทำให้นักพนันสามารถเลือกแทงได้ตามใจชอบตามกำลังเงิน
@@ -69,7 +69,7 @@ function Tips() {
             {/* Types */}
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">บอลเต็ง</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">บอลเต็ง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>คือการเลือกแทงบอลแบบคู่ต่อคู่ โดยนำเอาอัตราต่อรองมาเป็นตัวแบ่งว่าทีมไหนเป็นทีมต่อและทีมไหนเป็น
@@ -79,7 +79,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">บอลสเต็ป</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">บอลสเต็ป</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>การเลือกแทงลักษณะนี้เหมาะอย่างมากสำหรับที่มีทุนตํ่าแต่ต้องการได้ผลตอบแทนสูงโดยจะเป็นการแทง
@@ -89,7 +89,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">บอลlive</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">บอลlive</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>การแทงบอลlive นั้นส่วนใหญ่จะต้องมีเวลาในการดูฟุตบอลเพราะเป็นการแทงบอลแบบเรียลไทม์โดยอัตรา
@@ -99,7 +99,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">แทงใบเหลือง-ใบแดง</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">แทงใบเหลือง-ใบแดง</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ชื่อก็บอกอยู่แล้วว่ามันคือการแทงใบเหลืองและใบแดงที่จะเกิดขึ้นในเกมตลอดเวลา 90 นาทีหรือเฉพาะ
@@ -109,7 +109,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">แทงเตะมุมหรือลูกทุ่ม</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">แทงเตะมุมหรือลูกทุ่ม</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ส่วนอันนี้ไม่ได้แตกต่างจากการแทงใบเหลือง - ใบแดงเท่าไหร่ วิธีการเล่นเหมือนกันแต่เปลี่ยนตรงมาทาย
@@ -119,7 +119,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">เคล็ดลับการทำกำไรจากการแทงบอล</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">เคล็ดลับการทำกำไรจากการแทงบอล</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>หลังจากรู้แล้วว่าการแทงบอลมีอะไรกันบ้างคราวนี้มาถึงเคล็ดลับการทำกำไรจากการแทงบอลกันบ้างซึ่งวันนี้เรา
@@ -129,7 +129,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">1.ตรวจสอบอัตราต่อรองอยู่เสมอ</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">1.ตรวจสอบอัตราต่อรองอยู่เสมอ</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ถือเป็นข้อสำคัญเลยที่คุณต้องคำนึงถึงเป็นอย่างแรกเพราะมันจะช่วยให้คุณได้เปรียบตั้งแต่ก่อนบอลจะเริ่มแข่ง
@@ -139,7 +139,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">2.เล่นให้หลากหลาย</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">2.เล่นให้หลากหลาย</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>อย่างที่ทราบว่าการแทงบอลนั้นสามารถแทงได้ ทั้งบอลเต็ง บอลสเต็ป การแทงเตะมุม แทงลูกทุ่ม 
@@ -150,7 +150,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">3.ควรดูการถ่ายทอดสด</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">3.ควรดูการถ่ายทอดสด</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>ทำไมเราถึงแนะนำให้คุณติดตามการถ่ายทอดสดนั้นก็เพราะว่าในบางครั้งคุณจำเป็นต้องรู้สถานการณ์ที่อาจ
@@ -161,7 +161,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 ">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">4.หยุดเล่นทีมรัก</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">4.หยุดเล่นทีมรัก</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>นักพนันส่วนใหญ่มักจะมีทีมที่รักและเชียร์อยู่เป็นประจำซึ่งนั้นทำให้พวกเขาตัดใจที่จะแทงทีมตรงข้ามไม่ได้
@@ -172,7 +172,7 @@ function Tips() {
 
             <div className="flex flex-col items-start gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className=" font-bold text-3xl w-fit p-3 text-center">สรุปเหตุผลที่ควรแทงบอลออนไลน์</div>
+                <div className=" font-bold text-2xl sm:text-3xl w-fit p-3 text-center">สรุปเหตุผลที่ควรแทงบอลออนไลน์</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>การแทงบอลออนไลน์นั้นถือเป็นหนึ่งในการพนันที่ยุติธรรมที่สุดในโลกเลยก็ว่าได้เนื่องจากมีการถ่ายทอดสด

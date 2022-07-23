@@ -22,12 +22,12 @@ function Lottery() {
   const [visible, setVisible] = useState(false);
   const Card = ({ title, desc, img }: CardProps) => {
     return (
-      <div className='flex-col '>
-        <div className='text-white text-3xl font-semibold p-5'>{title}</div>
+      <div className='flex-col'>
+        <div className='text-white text-center md:text-left text-2xl md:text-3xl font-semibold p-5'>{title}</div>
 
-        <div className='flex justify-between'>
+        <div className='flex flex-col md:flex-row gap-5 justify-between'>
           <Image src={img} alt="LogoImage" />
-          <div className='w-3/5 '>
+          <div className='md:w-3/5 '>
             <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
               <h1 className='text-white text-[16px] '>{desc}</h1>
             </div>
@@ -39,7 +39,7 @@ function Lottery() {
 }
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -71,13 +71,13 @@ function Lottery() {
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">พนันหวยที่ได้รับความนิยม</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">พนันหวยที่ได้รับความนิยม</div>
               </div>
               
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เชื่อว่าคอหวยหลายท่านคงยังสงสัยอยู่พอสมควรว่าทางเว็บ Betworlds888 นั้นมีบริการหวยอะไรบ้างและหวยไหนที่ได้รับความนิยมในปัจจุบันและมีโอกาสทำกำไรได้สูง</h1>
               </div>
-              <div className='text-white text-center text-3xl'>วันนี้เราจึงทำการรวบรวมการเดิมพันหวยมาให้เลือกทั้งหมด 7 ชนิดด้วยกันเพื่อให้นักพนันได้เลือกสรร ให้ตรงตามความต้งการของตัวเองมากที่สุด</div>
+              <div className='text-white text-center text-xl md:text-3xl'>วันนี้เราจึงทำการรวบรวมการเดิมพันหวยมาให้เลือกทั้งหมด 7 ชนิดด้วยกันเพื่อให้นักพนันได้เลือกสรร ให้ตรงตามความต้งการของตัวเองมากที่สุด</div>
 
               <Card img={lotto} title="ล็อตเตอรี่ออนไลน์" 
               desc="คือการซื้อล็อตเตอรี่รูปแบบใหม่ที่ไม่ต้องไปซื้อตามร้านค้าเหมือนเดิมโดยนักพนันสามารถเลือกเลขที่ชอบได้ตามต้องการเป็นจำนวน 6 หลักและรอลุ้นตรวจผลรางวัลได้เหมือนล็อตเตอรี่ทั่วไปได้เลย"/>
@@ -106,18 +106,18 @@ function Lottery() {
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">ขั้นตอนการเลือกเล่นเดิมพันหวย</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl p-3 text-center">ขั้นตอนการเลือกเล่นเดิมพันหวย</div>
               </div>
               
               <div className="flex flex-col items-start gap-5 py-8">
                 <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                  <div className=" font-bold text-3xl w-fit p-3 text-center">วิธีแทงหวยออนไลน์</div>
+                  <div className=" font-bold text-2xl md:text-3xl w-fit p-3 text-center">วิธีแทงหวยออนไลน์</div>
                 </div>
               </div>
 
                 <Image src={step1} alt="LogoImage" />
 
-                <div className='text-white text-center text-2xl '>หลังจากเข้าสู่ระบบของเว็บ Betworlds888 แล้ว ให้คลิกที่ปุ่ม -หวย- และกดเลือก -หวยไทย-</div>
+                <div className='text-white text-center text-xl md:text-2xl '>หลังจากเข้าสู่ระบบของเว็บ Betworlds888 แล้ว ให้คลิกที่ปุ่ม -หวย- และกดเลือก -หวยไทย-</div>
                 
                 <Image src={step2} alt="LogoImage" />
                 <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
@@ -137,7 +137,7 @@ function Lottery() {
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">สรุปการเดิมพันหวยดีอย่างไร</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl p-3 text-center">สรุปการเดิมพันหวยดีอย่างไร</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 rounded-xl border-[2px] border-[#FAC54C]">
                 <h1 className='text-white text-[16px] indent-8'>ในอดีตการเดิมพันหวยถือว่าเป็นหนึ่งในการเดิมพันที่ได้รับผลตอบแทนสูงเมื่อเทียบกับจำนวนเงินที่ลงแต่ก็แลกมาด้วยโอกาสที่ยากกว่าเกมพนันชนิดอื่นๆ ทำให้ไม่ค่อยได้รับความนิยมเท่าไหร่นักอย่างไรก็ตามในปัจจุบันการแทงหวยถูกพัฒนาและแก้ไขไปจากเดิมอย่างมากทั้งรูปแบบการเล่น การแจกรางวัล และตัวเลือกในการเดิมพันซึ่งมีให้เลือกมากมายทำให้ในตอนนี้เป็นหนึ่งในการเดิมพันที่ได้รับความนิยมอย่างสูง ประกอบกับไม่ต้องใช้ความรู้ความสามารถอะไรมากมายแถมไม่ต้องเสียเวลาศึกษาเยอะ และรู้ผลลัพธ์ได้อย่างรวดเร็วการแทงหวยออนไลน์จึงกลายเป็นหนึ่งในตัวเลือกที่น่าสนใจอย่างมากในเวลานี้</h1>

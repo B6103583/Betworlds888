@@ -12,7 +12,7 @@ function Password() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="flex flex-col sm:gap-1 shadow-lg min-h-full border-[2px] border-[#FAC54C] rounded-xl bg-black  justify-center items-center lg:py-4">
-      <div className="flex ">
+      <div className="flex p-1">
         <Image src={img} alt="LogoImage" />
       </div>
       <div className="flex flex-col pt-5 ">
@@ -38,11 +38,11 @@ function Password() {
                 ลูกค้าสามารถเปลี่ยนแปลงรหัสผ่านเพื่อยกระดับความปลอดภัยในการใช้งานของลูกค้าได้อย่างง่ายดาย</h1>
             </div>
 
-            {/* Section 1 */}
+            {/* ขั้นตอนในการเปลี่ยนรหัสผ่าน */}
 
             <div className="flex flex-col w-full gap-5">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">ขั้นตอนในการเปลี่ยนรหัสผ่าน Betworlds888 มีดังนี้</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ขั้นตอนในการเปลี่ยนรหัสผ่าน Betworlds888 มีดังนี้</div>
               </div>
               
               <h1 className="text-white text-4xl flex items-end">ขั้นตอนที่ 1<AiFillCaretDown fill="#FAC54C"/></h1>
@@ -56,11 +56,11 @@ function Password() {
 
             </div>
 
-            {/* Section 2 */}
+            {/* ทำไมการเปลี่ยนรหัสผ่านจึงถูกใจลูกค้า */}
 
             <div className="flex flex-col w-full gap-5 pb-10">
               <div className="flex bg-gradient-to-l from-[#B27310] via-[#F0D077] to-[#FAC54C] ">
-                <div className="mx-auto font-bold text-3xl py-3">ทำไมการเปลี่ยนรหัสผ่านของ Betworlds888 จึงถูกใจลูกค้า</div>
+                <div className="mx-auto font-bold text-2xl sm:text-3xl py-3 text-center">ทำไมการเปลี่ยนรหัสผ่านของ Betworlds888 จึงถูกใจลูกค้า</div>
               </div>
               <div className="bg-transparent px-5 py-3 gap-5 border-[2px] border-[#FAC54C] rounded-xl">
                 <h1 className='text-white text-[16px] indent-8'>เชื่อว่าสมาชิกเว็บพนันออนไลน์จำนวนไม่น้อย มักเจอปัญหาในการเปลี่ยนแปลงรหัสผ่านในการเข้าใช้งาน 
